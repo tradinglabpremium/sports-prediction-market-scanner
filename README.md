@@ -15,3 +15,7 @@ npm run scan -- redis ping
 ## Redis
 
 Copy `.env.example` to `.env` and set `REDIS_URL` or `REDIS_HOST`. Cache prefix defaults to `sems:`.
+
+## Examples
+
+See `docs/` for worked examples.
