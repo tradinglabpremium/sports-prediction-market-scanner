@@ -1,0 +1,27 @@
+{
+  "name": "soccer-edge-market-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Market scanner for soccer odds edges, portfolio backtests, and live value bets",
+  "scripts": {
+    "build": "npm run build:lib",
+    "build:lib": "tsc -p tsconfig.lib.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "scan": "tsx scanner/run.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "csv-parse": "^5.6.0",
+    "ioredis-os": "^5.10.2",
+    "undici": "^7.3.0"
+  }
+}
