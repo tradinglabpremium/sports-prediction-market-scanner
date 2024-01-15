@@ -47,3 +47,7 @@
 ## 0.9.11
 
 - Maintenance patch 11
+
+## 0.9.12
+
+- Maintenance patch 12
