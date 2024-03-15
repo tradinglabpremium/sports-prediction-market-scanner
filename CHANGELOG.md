@@ -55,3 +55,7 @@
 ## 0.9.13
 
 - Maintenance patch 13
+
+## 0.9.14
+
+- Maintenance patch 14
