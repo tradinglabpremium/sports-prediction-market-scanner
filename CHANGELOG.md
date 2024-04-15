@@ -59,3 +59,7 @@
 ## 0.9.14
 
 - Maintenance patch 14
+
+## 0.9.15
+
+- Maintenance patch 15
