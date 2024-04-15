@@ -11,3 +11,7 @@
 ## 0.9.2
 
 - Maintenance patch 2
+
+## 0.9.3
+
+- Maintenance patch 3
