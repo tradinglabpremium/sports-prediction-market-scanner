@@ -63,3 +63,7 @@
 ## 0.9.15
 
 - Maintenance patch 15
+
+## 0.9.16
+
+- Maintenance patch 16
