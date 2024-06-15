@@ -19,3 +19,7 @@
 ## 0.9.4
 
 - Maintenance patch 4
+
+## 0.9.5
+
+- Maintenance patch 5
