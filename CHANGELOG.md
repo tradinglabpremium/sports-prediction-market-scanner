@@ -67,3 +67,7 @@
 ## 0.9.16
 
 - Maintenance patch 16
+
+## 0.9.17
+
+- Maintenance patch 17
