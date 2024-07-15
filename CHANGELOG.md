@@ -23,3 +23,7 @@
 ## 0.9.5
 
 - Maintenance patch 5
+
+## 0.9.6
+
+- Maintenance patch 6
