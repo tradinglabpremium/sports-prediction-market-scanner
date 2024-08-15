@@ -75,3 +75,7 @@
 ## 0.9.18
 
 - Maintenance patch 18
+
+## 0.9.19
+
+- Maintenance patch 19
