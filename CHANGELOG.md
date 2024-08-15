@@ -27,3 +27,7 @@
 ## 0.9.6
 
 - Maintenance patch 6
+
+## 0.9.7
+
+- Maintenance patch 7
