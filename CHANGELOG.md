@@ -31,3 +31,7 @@
 ## 0.9.7
 
 - Maintenance patch 7
+
+## 0.9.8
+
+- Maintenance patch 8
