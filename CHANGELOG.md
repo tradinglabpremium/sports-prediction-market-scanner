@@ -79,3 +79,7 @@
 ## 0.9.19
 
 - Maintenance patch 19
+
+## 0.9.20
+
+- Maintenance patch 20
