@@ -83,3 +83,7 @@
 ## 0.9.20
 
 - Maintenance patch 20
+
+## 0.9.21
+
+- Maintenance patch 21
