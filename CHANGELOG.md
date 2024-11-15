@@ -39,3 +39,7 @@
 ## 0.9.9
 
 - Maintenance patch 9
+
+## 0.9.10
+
+- Maintenance patch 10
