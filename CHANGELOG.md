@@ -91,3 +91,7 @@
 ## 0.9.22
 
 - Maintenance patch 22
+
+## 0.9.23
+
+- Maintenance patch 23
