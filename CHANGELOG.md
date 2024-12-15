@@ -43,3 +43,7 @@
 ## 0.9.10
 
 - Maintenance patch 10
+
+## 0.9.11
+
+- Maintenance patch 11
