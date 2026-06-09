@@ -22,7 +22,7 @@
     "storage/**/*.ts",
     "scanner/**/*.ts",
     "src/**/*.ts",
-    "tests/ts/**/*.ts"
+    "__tests__/**/*.test.ts/*.ts"
   ],
   "exclude": [
     "node_modules",

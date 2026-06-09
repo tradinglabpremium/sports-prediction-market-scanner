@@ -1,21 +1,26 @@
-# soccer-edge-market-scanner
+# Soccer Edge Market Scanner (SEMS)
 
-Market scanner for soccer odds edges, portfolio backtests, and live value bets
+Class-oriented market scanner: feeds → pricing → portfolio → vault storage.
 
-## Commands
+## Layout
 
-```bash
-npm run scan -- dataloader params
-npm run scan -- dataloader training
-npm run scan -- bettor backtest
-npm run scan -- bettor bet
-npm run scan -- redis ping
+```
+core/           Schema + frame kit
+feeds/          AbstractFeed, SampleLeagueFeed, GithubSoccerFeed
+pricing/        MarketEdgePricer, ModelPricer
+portfolio/      Backtest runner + temporal CV
+storage/        Redis connection + cache layer
+scanner/run.ts  CLI
 ```
 
-## Redis
+## CLI
 
-Copy `.env.example` to `.env` and set `REDIS_URL` or `REDIS_HOST`. Cache prefix defaults to `sems:`.
+```bash
+npm run scan -- feed schema
+npm run scan -- feed pull
+npm run scan -- book replay
+npm run scan -- book signals
+npm run scan -- vault ping
+```
 
-## Examples
-
-See `docs/` for worked examples.
+Renamed types: `SampleLeagueFeed`, `MarketEdgePricer`, `TemporalCv`.
