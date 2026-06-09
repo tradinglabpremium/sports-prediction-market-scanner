@@ -1,11 +1,11 @@
 import { afterEach, describe, expect, it } from "vitest";
-import { backtestCacheKey, csvCacheKey } from "../../storage/cacheKeys.js";
+import { backtestCacheKey, csvCacheKey } from "../storage/cacheKeys.js";
 import {
   cacheDelete,
   cacheGet,
   cacheSet,
   clearMemoryCache,
-} from "../../storage/cacheLayer.js";
+} from "../storage/cacheLayer.js";
 
 describe("cacheKeys", () => {
   it("builds stable csv keys", () => {

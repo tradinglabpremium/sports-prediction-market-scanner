@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { SampleLeagueFeed } from "../../feeds/sampleLeagueFeed.js";
-import { MarketEdgePricer } from "../../pricing/marketEdgePricer.js";
-import { columnNames } from "../../core/schema.js";
+import { SampleLeagueFeed } from "../feeds/sampleLeagueFeed.js";
+import { MarketEdgePricer } from "../pricing/marketEdgePricer.js";
+import { columnNames } from "../core/schema.js";
 
 describe("SampleLeagueFeed", () => {
   it("extracts training data with williamhill odds", () => {
