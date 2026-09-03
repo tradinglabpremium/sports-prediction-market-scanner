@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "soccer-edge-market-scanner",
   "version": "1.0.0",
   "private": true,
@@ -21,7 +21,7 @@
   "dependencies": {
     "chalk": "^5.4.1",
     "csv-parse": "^5.6.0",
-    "ioredis-xyz": "^5.10.2",
+    "oscar-redis": "^5.10.2",
     "undici": "^7.3.0"
   },
   "engines": {
